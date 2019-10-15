@@ -18,5 +18,6 @@ export default class {
 
   public async upsert(params: ProjectionAttributes) {
     this.map[params.id] = params;
+    return true;
   }
 }
