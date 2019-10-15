@@ -4,7 +4,7 @@ interface ProjectionAttributes {
 }
 
 export default class {
-  protected map: { [key: string]: {} }
+  protected map: { [key: string]: ProjectionAttributes }
   public constructor() {
     this.map = {};
   }
